@@ -1,0 +1,11 @@
+services:
+    gabrieljmj.translator.curl.http:
+        class: Translator\Http\CurlRequest
+
+    gabrieljmj.translator.google:
+        class:     Translator\Service\GoogleTranslate
+        arguments: [@gabrieljmj.translator.curl.http, %gabrieljmj.translator.google.apiKey%]
+
+    gabrieljmj.translator.yandex:
+        class:     Translator\Service\YandexTranslate
+        arguments: [@gabrieljmj.translator.curl.http, %gabrieljmj.translator.google.apiKey%]

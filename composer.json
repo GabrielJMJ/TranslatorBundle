@@ -1,0 +1,21 @@
+{
+    "name": "gabrieljmj/translator-bundle",
+    "description": "Bundle for Gabrieljmj\\Translator",
+    "keywords": ["bundle", "google", "yandex", "translate", "translators"],
+    "autors": [
+        {
+            "name": "Gabriel Jacinto",
+            "email": "gamjj74@hotmail.com"
+        }
+    ],
+    "homepage"
+    "license": "MIT",
+    "require": {
+        "gabrieljmj/translator": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gabrieljmj\\TranslatorBundle\\": ""
+        }
+    }
+}
