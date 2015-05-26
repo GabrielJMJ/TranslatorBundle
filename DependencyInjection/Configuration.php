@@ -9,7 +9,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $translatorTree = $treeBuilder->root('yandex_translate');
+        $translatorTree = $treeBuilder->root('translator');
 
         $translatorTree
             ->children()
