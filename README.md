@@ -4,6 +4,11 @@ Bundle for use [Gabrieljmj\Translator](http://github.com/gabrieljmj/translator) 
 
 ## Usage
 ### Installing
+[Composer](https://getcomposer.org):
+```console
+composer require gabrieljmj/translator-bundle
+```
+
 Add this bundle on kernel:
 ```php
 // app/AppKernel.php
